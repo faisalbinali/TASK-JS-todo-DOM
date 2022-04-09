@@ -33,12 +33,12 @@ _Note: You have to be creative and unique with your styling_
 
 ### ⁉️ Questions you need to answer before you get started
 
-- What does the the `select` tag do?
-- What does `option` tag do? Where can it be found?
-- How is `engine.js` reading from `index.js`, `categoryItem.js`, and `taskItem.js`
-- What does components folder contains?
-- What does `engine.js` do?
-- Try all functions inside the `engine.js`
+- What does the the `select` tag do? to create a drop-down list
+- What does `option` tag do? Where can it be found? to give options in select
+- How is `engine.js` reading from `index.js`, `categoryItem.js`, and `taskItem.js`it has renderCategories and renderTasks
+- What does components folder contains?the way to add option tag 
+- What does `engine.js` do?it connects html to js like how we will insert our code to the html
+- Try all functions inside the `engine.js` ok
 
 ## PART 1: Add a Task
 
@@ -68,7 +68,6 @@ categories = ["Movies", "Grociries"];
 4. Make sure the added category will be displayed in both dropdown menus, by using `renderCategories(array, html-id)`
 
 ## PART 3: Task checked
-
 1. View the `taskChecked() ` function and test it
 2. Make sure that it updates the original `tasks` list
 3. And render `tasks` to the page
